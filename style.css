@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#outlate {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    align-content: center;
+}
+
+#inlate {
+    margin: auto;
+     height: 300px;
+     width: 80%;
+     background-color: palevioletred;
+     text-align: center;
+     border-radius: 5%;
+     font-size: 20px;
+     border: 3px solid beige;
+     font-family: monospace;
+     padding-top: 20px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     
+}
+
+#outlate h3 {
+   
+    color: red;
+}
+.buttons{
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    background-color: yellow;
+    cursor: pointer;
+    margin: 30px 10px;
+}
+
+.alert {
+    width: 20%;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+    background-color: pink;
+    align-content: center;
+    display: none;
+}
+
