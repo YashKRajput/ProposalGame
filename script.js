@@ -10,7 +10,8 @@ no.addEventListener("mouseover", () => {
 })
 
 yes.addEventListener("click", () =>{
-    message.style.display = "block"
+    message.style.display = "block";
+    
    
 
 })

@@ -14,10 +14,10 @@
 #inlate {
     margin: auto;
      height: 300px;
-     width: 80%;
+     width: 50%;
      background-color: palevioletred;
      text-align: center;
-     border-radius: 5%;
+     border-radius: 50px;
      font-size: 20px;
      border: 3px solid beige;
      font-family: monospace;
@@ -47,13 +47,13 @@
 }
 
 .alert {
-    width: 20%;
-    height: 80px;
-    border-radius: 10px;
-    border: 1px solid black;
-    margin: auto;
+    width: 91%;
+    height: 100%;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-top: 20px ;
     position: relative;
-    bottom: 80px;
+    bottom: 100px;
     background-color: pink;
     align-content: center;
     display: none;
